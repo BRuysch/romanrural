@@ -13,6 +13,7 @@ body {
 
 * {
   box-sizing: border-box;
+  
 }
 
   body {
@@ -21,25 +22,19 @@ body {
   }
 
   .Hello{
-    position: fixed;
-    height: auto;
-    margin-left: -150px;
-    width: 500px;
-    margin-top: 450px;
-    padding-top: 50px;
-    display: center;
     
-    
-   
-    
+    margin-left: 180px;
+    margin-top: 0px;
+    padding-top: 0px;
+        
     
   }
   .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 70px;
-    margin-left: 380px;
+    margin-right: 0px;
+    margin-left: 0px;
     /*background: white;
     color: white;*/
   }
@@ -65,7 +60,7 @@ body {
   .navbar-links li a {
     text-decoration: none;
     color: white;
-    padding: 1rem;
+    padding: 10px;
     display: block;
     font-style: bold;
     font-size: 50px;
@@ -96,10 +91,10 @@ body {
     font-style: bold;
   }
   .stock{
-    margin-top: 450px;
+    margin-top: 0px;
     color: white;
-    font-size: 35px;
-    margin-left: 380px;
+    font-size: 50px;
+    margin-left: 180px;
   }
 
 /*@media (max-width: 900px) {
