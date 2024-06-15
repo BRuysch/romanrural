@@ -23,10 +23,11 @@ body {
   .Hello{
     position: fixed;
     height: auto;
-    left: 0px;
-    width: 220px;
-    margin-top: 135px;
-    padding-top: 5px;
+    margin-left: 0px;
+    width: 500px;
+    margin-top: 450px;
+    padding-top: 50px;
+    display: center;
     
     
    
@@ -38,7 +39,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-right: 70px;
-    margin-left: 180px;
+    margin-left: 380px;
     /*background: white;
     color: white;*/
   }
@@ -67,7 +68,7 @@ body {
     padding: 1rem;
     display: block;
     font-style: bold;
-    font-size: 30px;
+    font-size: 50px;
    
    
   }

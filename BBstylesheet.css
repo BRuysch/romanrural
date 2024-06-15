@@ -1,0 +1,143 @@
+
+body {
+  background-image: url(Images/RobBackground.JPEG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .Hello{
+    position: fixed;
+    height: auto;
+    left: 0px;
+    width: 220px;
+    margin-top: 135px;
+    padding-top: 5px;
+    
+    
+   
+    
+    
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 70px;
+    margin-left: 180px;
+    /*background: white;
+    color: white;*/
+  }
+
+  /*.brand-title {
+    font-size: 1.95rem;
+    margin: .5rem;
+    margin-left: 70px;
+    color: rgb(61, 58, 238);
+    
+  }*/
+
+  .navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .navbar-links li {
+    list-style: none;
+  }
+
+  .navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+    font-style: bold;
+    font-size: 30px;
+   
+   
+  }
+
+  .navbar-links li:hover {
+    background-color: rgb(133, 133, 231);
+  }
+
+  .toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: blue;
+    border-radius: 10px;
+    font-style: bold;
+  }
+  .stock{
+    margin-top: 25px;
+    color: white;
+    font-size: 35px;
+    margin-left: 220px;
+  }
+
+/*@media (max-width: 900px) {
+      .toggle-button {
+      display: flex;
+      .brand-title {
+       
+      }
+
+    }
+    
+
+  .navbar-links {
+    display: none;
+    margin-top: 10px;
+    width: 100%;
+  }
+.stock{
+  margin-top: 20px;
+  color: white;
+  margin-left: 40px;
+}
+ 
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .navbar-links ul {
+    flex-direction: column;
+  }
+ 
+  .navbar-links li a {
+    padding: .5rem 1rem;
+  }
+
+  .navbar-links.active{
+    display: flex;
+    
+  }*/
+
+ 
