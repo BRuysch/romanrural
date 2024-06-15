@@ -23,7 +23,7 @@ body {
   .Hello{
     position: fixed;
     height: auto;
-    margin-left: 0px;
+    margin-left: -150px;
     width: 500px;
     margin-top: 450px;
     padding-top: 50px;
@@ -96,10 +96,10 @@ body {
     font-style: bold;
   }
   .stock{
-    margin-top: 25px;
+    margin-top: 450px;
     color: white;
     font-size: 35px;
-    margin-left: 220px;
+    margin-left: 380px;
   }
 
 /*@media (max-width: 900px) {
